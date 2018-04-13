@@ -1,0 +1,82 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            //Begin app
+            Console.Write("Welcome to the Math Challenge! \n Enter two integers with the sme number of digits \n");
+            // Declare Variables
+
+
+            int num1, r, num2;
+            int Array = new Array[a];
+
+            int Array2 = new Array2[b];
+
+            Array = int.Parse(Console.ReadLine());
+
+            Array2 = int.Parse(Console.ReadLine());
+
+            if (array == Array2)
+                Console.WriteLine("True");
+            else
+                Console.WriteLine("False");
+
+            //Prompt user for integer
+
+            Console.Write("Enter first integer : \n");
+            num1 = int.Parse(Console.ReadLine());
+          
+            while (num1 != 0)
+            {
+                r = num1 % 10;
+                num1 = num1 / 10;
+                sum = sum + r;
+            }
+            Console.Write("Enter Next integer : ");
+            num2 = int.Parse(Console.ReadLine());
+            while (num2 != 0)
+            {
+                r = num2 % 10;
+                num2 = num2 / 10;
+                sum = sum + r;
+            }
+            Console.WriteLine("Sum of Digits of the Number : " + sum);
+            Console.ReadLine();
+         
+
+
+
+            int i;
+            int[] arr = new int[2]; // array size of 2
+            // accept value from user
+            for (i = 0; i < 2; i++)
+            {
+                Console.Write("\n Enter an integer");
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+          
+            }
+
+            Console.WriteLine("\n");
+            for (i = 0; i < 2; i++) 
+            {
+                Console.WriteLine();
+            }
+        
+
+
+            //Read in number from user
+           // num1 = Convert.ToInt32(Console.ReadLine());
+
+
+        }
+    }
+}
